@@ -1,0 +1,244 @@
+{
+  "users": [
+    {
+      "id": "4c58",
+      "name": "Bala",
+      "password": "qwe!@#123W",
+      "email": "bala@gmail.com"
+    },
+    {
+      "id": "6b35",
+      "name": "The",
+      "password": "the@123T",
+      "email": "the@gmail.com"
+    },
+    {
+      "id": "6de0",
+      "name": "qwe",
+      "password": "1@3qweQWE",
+      "email": "qwe@gmail.com"
+    },
+    {
+      "id": "7eda",
+      "name": "Vas",
+      "password": "Qwe!232#",
+      "email": "vas@gmail.com"
+    }
+  ],
+  "doctors": [
+    {
+      "id": "1",
+      "name": "Dr. John Smith",
+      "speciality": "Cardiology",
+      "phone": "555-0123",
+      "leaving_time": "17:00",
+      "holiday_dates": [
+        "2024-12-25",
+        "2025-01-01"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Dr. Jane Doe",
+      "speciality": "Dermatology",
+      "phone": "555-0456",
+      "leaving_time": "16:30",
+      "holiday_dates": [
+        "2024-11-28",
+        "2025-01-01"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Dr. Emily Johnson",
+      "speciality": "Pediatrics",
+      "phone": "555-0789",
+      "leaving_time": "17:30",
+      "holiday_dates": [
+        "2024-10-14",
+        "2024-12-25"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Dr. Michael Brown",
+      "speciality": "Orthopedics",
+      "phone": "555-1011",
+      "leaving_time": "17:15",
+      "holiday_dates": [
+        "2024-11-11",
+        "2025-01-01"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Dr. Sarah Davis",
+      "speciality": "Neurology",
+      "phone": "555-1213",
+      "leaving_time": "16:45",
+      "holiday_dates": [
+        "2024-12-31",
+        "2025-01-01"
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Dr. William Garcia",
+      "speciality": "General Practice",
+      "phone": "555-1415",
+      "leaving_time": "17:00",
+      "holiday_dates": [
+        "2024-11-28",
+        "2025-01-01"
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Dr. Jessica Martinez",
+      "speciality": "Endocrinology",
+      "phone": "555-1617",
+      "leaving_time": null,
+      "holiday_dates": []
+    },
+    {
+      "id": "8",
+      "name": "Dr. David Rodriguez",
+      "speciality": "Gastroenterology",
+      "phone": "555-1819",
+      "leaving_time": null,
+      "holiday_dates": []
+    },
+    {
+      "id": "9",
+      "name": "Dr. Linda Wilson",
+      "speciality": "Ophthalmology",
+      "phone": 5552021,
+      "leaving_time": "17:00",
+      "holiday_dates": [
+        "2024-12-25",
+        "2025-01-01"
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Dr. James Anderson",
+      "speciality": "Psychiatry",
+      "phone": "5552223",
+      "leaving_time": "16:30",
+      "holiday_dates": [
+        "2024-11-28",
+        "2025-01-01"
+      ]
+    },
+    {
+      "id": "11",
+      "name": "Dr. Patricia Thomas",
+      "speciality": "Rheumatology",
+      "phone": "5552425",
+      "leaving_time": null,
+      "holiday_dates": []
+    },
+    {
+      "id": "12",
+      "name": "Dr. Charles Taylor",
+      "speciality": "Urology",
+      "phone": "5552627",
+      "leaving_time": null,
+      "holiday_dates": []
+    },
+    {
+      "id": "13",
+      "name": "Dr. Barbara Moore",
+      "speciality": "Consultant",
+      "phone": "5552829",
+      "leaving_time": null,
+      "holiday_dates": []
+    },
+    {
+      "id": "14",
+      "name": "Dr. Kevin White",
+      "phone": "5555050",
+      "speciality": "Infectious Disease",
+      "leaving_time": "17:00",
+      "holiday_dates": [
+        "2024-10-14",
+        "2025-01-01"
+      ]
+    }
+  ],
+  "appointmentfixed": [],
+  "services": [
+    {
+      "id": "1",
+      "name": "Emergency Services",
+      "description": "24/7 emergency care for critical conditions."
+    },
+    {
+      "id": "2",
+      "name": "Outpatient Services",
+      "description": "Consultations and treatments without overnight stay."
+    },
+    {
+      "id": "3",
+      "name": "Inpatient Services",
+      "description": "Comprehensive care for patients admitted to the hospital."
+    },
+    {
+      "id": "4",
+      "name": "Surgical Services",
+      "description": "Various surgical procedures performed by qualified surgeons."
+    },
+    {
+      "id": "5",
+      "name": "Diagnostic Imaging",
+      "description": "X-rays, MRIs, and CT scans for accurate diagnosis."
+    },
+    {
+      "id": "6",
+      "name": "Laboratory Services",
+      "description": "Blood tests, pathology, and other laboratory services."
+    },
+    {
+      "id": "7",
+      "name": "Pharmacy Services",
+      "description": "Medication dispensing and consultation services."
+    },
+    {
+      "id": "8",
+      "name": "Rehabilitation Services",
+      "description": "Physical therapy and rehabilitation programs."
+    }
+  ],
+  "educationalCourses": [
+    {
+      "id": "1",
+      "title": "Bachelor of Science in Nursing",
+      "duration": "4 years",
+      "description": "A comprehensive program covering nursing fundamentals and patient care."
+    },
+    {
+      "id": "2",
+      "title": "Master of Healthcare Administration",
+      "duration": "2 years",
+      "description": "Advanced studies in healthcare management and leadership."
+    },
+    {
+      "id": "3",
+      "title": "Diploma in Medical Laboratory Technology",
+      "duration": "1 year",
+      "description": "Training in laboratory techniques and diagnostics."
+    },
+    {
+      "id": "4",
+      "title": "Certificate in First Aid and CPR",
+      "duration": "1 month",
+      "description": "Basic training in emergency response techniques."
+    },
+    {
+      "id": "5",
+      "title": "Continuing Medical Education (CME)",
+      "duration": "varies",
+      "description": "Workshops and courses for healthcare professionals to update their skills."
+    }
+  ]
+}

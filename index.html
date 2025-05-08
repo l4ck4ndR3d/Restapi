@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome | YARA Rule Generator</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #1e3c72, #2a5298);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+    }
+
+    .welcome-container {
+      text-align: center;
+      color: white;
+      animation: fadeInUp 1.5s ease-out;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 0.5em;
+    }
+
+    p {
+      font-size: 1.2em;
+      margin-bottom: 2em;
+    }
+
+    .start-btn {
+      padding: 12px 30px;
+      font-size: 1em;
+      background-color: #ffffff;
+      color: #1e3c72;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: transform 0.3s ease, background-color 0.3s ease;
+    }
+
+    .start-btn:hover {
+      transform: scale(1.05);
+      background-color: #e0e0e0;
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(40px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    /* Animated background circles */
+    .circle {
+      position: absolute;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.05);
+      animation: moveCircle 20s infinite linear;
+    }
+
+    .circle:nth-child(1) {
+      width: 200px;
+      height: 200px;
+      top: 20%;
+      left: 15%;
+    }
+
+    .circle:nth-child(2) {
+      width: 300px;
+      height: 300px;
+      bottom: 10%;
+      right: 20%;
+    }
+
+    @keyframes moveCircle {
+      0% { transform: translateY(0); }
+      50% { transform: translateY(-20px); }
+      100% { transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <div class="circle"></div>
+  <div class="circle"></div>
+
+  <div class="welcome-container">
+    <h1>Wake up to! Defend the World</h1>
+    <button class="start-btn" onclick="window.location.href='main.html'">Get Started</button>
+  </div>
+</body>
+</html>

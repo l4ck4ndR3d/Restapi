@@ -1,0 +1,116 @@
+{
+    "doctors": [
+      {
+        "id": 1,
+        "name": "Dr. John Smith",
+        "speciality": "Cardiology",
+        "phone": "555-0123"
+      },
+      {
+        "id": 2,
+        "name": "Dr. Jane Doe",
+        "speciality": "Dermatology",
+        "phone": "555-0456"
+      },
+      {
+        "id": 3,
+        "name": "Dr. Emily Johnson",
+        "speciality": "Pediatrics",
+        "phone": "555-0789"
+      },
+      {
+        "id": 4,
+        "name": "Dr. Michael Brown",
+        "speciality": "Orthopedics",
+        "phone": "555-1011"
+      },
+      {
+        "id": 5,
+        "name": "Dr. Sarah Davis",
+        "speciality": "Neurology",
+        "phone": "555-1213"
+      },
+      {
+        "id": 6,
+        "name": "Dr. William Garcia",
+        "speciality": "General Practice",
+        "phone": "555-1415"
+      },
+      {
+        "id": 7,
+        "name": "Dr. Jessica Martinez",
+        "speciality": "Endocrinology",
+        "phone": "555-1617"
+      },
+      {
+        "id": 8,
+        "name": "Dr. David Rodriguez",
+        "speciality": "Gastroenterology",
+        "phone": "555-1819"
+      },
+      {
+        "id": 9,
+        "name": "Dr. Linda Wilson",
+        "speciality": "Ophthalmology",
+        "phone": "555-2021"
+      },
+      {
+        "id": 10,
+        "name": "Dr. James Anderson",
+        "speciality": "Psychiatry",
+        "phone": "555-2223"
+      },
+      {
+        "id": 11,
+        "name": "Dr. Patricia Thomas",
+        "speciality": "Rheumatology",
+        "phone": "555-2425"
+      },
+      {
+        "id": 12,
+        "name": "Dr. Charles Taylor",
+        "speciality": "Urology",
+        "phone": "555-2627"
+      },
+      {
+        "id": 13,
+        "name": "Dr. Barbara Moore",
+        "speciality": "Consultant",
+        "phone":"555-2829"
+      },
+      {"id": 14,
+        "name": "Dr. Kevin White",
+        "speciality": "Infectious Disease",
+        "phone": "555-5050"
+      }
+      ],
+    
+       "appointmentFixingDoctors":[
+          {
+              "id":"1", 
+              "name":"Dr. John Smith", 
+              "phone":"555-0123" 
+          },
+          {
+              "id":"2", 
+              "name":"Dr. Jane Doe", 
+              "phone":"555-0456" 
+          },
+          {
+              "id":"3", 
+              "name":"Dr. Emily Johnson", 
+              "phone":"555-0789" 
+          },
+          {
+              "id":"4", 
+              "name":"Dr. Michael Brown", 
+              "phone":"555-1011" 
+          },
+          {
+              "id":"5", 
+              "name":"Dr. Sarah Davis", 
+              "phone":"555-1213" 
+          }
+        ]
+  }
+  
